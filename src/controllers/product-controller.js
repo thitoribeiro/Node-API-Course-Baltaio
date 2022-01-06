@@ -94,8 +94,8 @@ exports.put = (req, res, next) => {
 };
 
 exports.delete = ('/', (req, res, next) => {
-    Product
-        .findOneAndDelete(req.body.id).then(x => {
+    repository.delete(req.body.id)
+    .then(x => {
                 res.status(200).send({ message: 'Produto removido com sucesso!'});
         
         }).catch(e => {

@@ -46,4 +46,10 @@ exports.update = (id, data) => {
                 price: data.price
             }
         });
+
+}
+
+exports.delete = (id) => {
+    return Product
+        .findOneAndDelete(id);
 }
