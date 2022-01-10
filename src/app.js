@@ -11,7 +11,8 @@ const router = express.Router();
 mongoose.connect('mongodb+srv://thito:senha123@mongostudy.0tawc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 //Models load
-const Product = require('./models/product')
+const Product = require('./models/product');
+const Customer = require('./models/customer');
 
 //Routes loading
 const indexRoute = require('./routes/index-route');
