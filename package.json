@@ -1,0 +1,31 @@
+{
+  "name": "node-api-course-baltaio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thitoribeiro/Node-API-Course-Baltaio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thitoribeiro/Node-API-Course-Baltaio/issues"
+  },
+  "homepage": "https://github.com/thitoribeiro/Node-API-Course-Baltaio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "guid": "^0.0.12",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
